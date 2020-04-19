@@ -1,0 +1,102 @@
+/ios/Pods/
+/ios/Index
+/ios/_last_revision.sh
+/artifacts/
+/ios/Podfile.lock
+yarn.lock
+
+# Xcode
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Gradle
+/build/
+/RNTester/android/app/build/
+/RNTester/android/app/gradle/
+/RNTester/android/app/gradlew
+/RNTester/android/app/gradlew.bat
+/ReactAndroid/build/
+
+# Buck
+.buckd
+buck-out
+/ReactAndroid/src/main/jni/prebuilt/lib/armeabi-v7a/
+/ReactAndroid/src/main/jni/prebuilt/lib/x86/
+/ReactAndroid/src/main/gen
+
+# Android
+.idea
+.gradle
+local.properties
+*.iml
+/android/build/
+/android/app/build/
+*.project
+*.settings/
+*.classpath
+
+# Node
+node_modules
+/node_modules/
+node_module/
+*.log
+.nvm
+/danger/node_modules/
+
+# OS X
+
+
+# Test generated files
+/ReactAndroid/src/androidTest/assets/AndroidTestBundle.js
+*.js.meta
+
+/coverage
+/third-party
+
+# react-native
+/ios/build
+/ios/Pods
+
+# flow
+/flow-typed
+
+.tmp/reactNativeBuild/index.android.map
+.tmp/reactNativeBuild/index.android.bundle
+.tmp/reactNativeBuild/debuggerWorker.js
+
+rm
+watchman
+
+\.DS_Store
+
+*.jsbundle
+
+*.meta
+
+*.bundle
+
+.vscode
+
+*.cer
+
+report.xml
+
